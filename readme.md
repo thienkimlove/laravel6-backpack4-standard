@@ -1,4 +1,4 @@
-##  digital
+##  Backpack Standard
 ### Install
 
 - Backpack : 
@@ -7,7 +7,7 @@
 
 - Create database 
 
-`CREATE DATABASE merchant_portal_api CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci; `
+`CREATE DATABASE db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci; `
 
 and run `php artisan backpack:install`
 
@@ -57,3 +57,9 @@ rm -rf app/Http/Controllers/Auth #deletes laravel's demo auth controllers
 First install Permission Manager `composer require backpack/permissionmanager`
 
 Follow every step in `https://github.com/Laravel-Backpack/PermissionManager#install`
+
+### Create user
+
+`php artisan backpack:user`
+
+Run `php artisan serve`
