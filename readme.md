@@ -63,3 +63,16 @@ Follow every step in `https://github.com/Laravel-Backpack/PermissionManager#inst
 `php artisan backpack:user`
 
 Run `php artisan serve`
+
+### For start new project
+
+Create Database
+
+`CREATE DATABASE db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci; `
+
+Upload project and run `composer install`
+
+Import template from `sqltemplate/template.sql`
+
+
+
